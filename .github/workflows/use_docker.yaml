@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ./.github/worksflows/hello
+        uses: ./.github/workflows/hello/
         with:
           who-to-greet: 'Patrick'
       # Use the output from the `hello` step
